@@ -41,7 +41,7 @@ train_op = tf.train.GradientDescentOptimizer(0.05).minimize(cost)
 
 predict_op = tf.argmax(py_x, 1)
 
-def fizz_buzz(i, prediction):
+def prediction_func(i, prediction):
     return [str(i), "three", "five", "Fifteen"][prediction]
 
 with tf.Session() as sess:
@@ -59,7 +59,7 @@ with tf.Session() as sess:
             numbers = np.arange(1, 101)
             teX = np.transpose(binary_encode(numbers, NUM_DIGITS))
             teY = sess.run(predict_op, feed_dict={X: teX})
-            output = np.vectorize(fizz_buzz)(numbers, teY)
+            output = np.vectorize(prediction_func)(numbers, teY)
 
             print(output)
         
