@@ -4,4 +4,8 @@ write the cost function for forward propogation for logistic regression?
 write the cost function for backward propogation for logistic regression?
 write the loss function for forward propogation for logistic regression?
 write the loss function for backward propogation for logistic regression?
+write the cost function for forward propogation for linear regression?
+write the cost function for backward propogation for linear regression?
+write the loss function for forward propogation for linear regression?
+write the loss function for backward propogation for linear regression?
 
