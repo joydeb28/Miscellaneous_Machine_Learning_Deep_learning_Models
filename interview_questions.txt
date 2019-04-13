@@ -1,2 +1,4 @@
 what is forward propogation?
 what is backward propogation?
+write the cost function for forward propogation?
+write the cost function for backward propogation?
